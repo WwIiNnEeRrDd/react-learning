@@ -1,11 +1,11 @@
 import Categories from "@/components/Categories";
+import Navbar from "@/components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ThemeProvider } from 'react-bootstrap';
-
 
 const Home = () => {
   return (
     <div>
+     
       <Categories />
     </div>
   );
